@@ -1532,28 +1532,41 @@ details p {
 
 @media (max-width: 700px) {
 
-    .chatbot-float {
-        width: 56px;
-        height: 56px;
-
-        right: 16px;
-        bottom: 18px;
-    }
-
     .chatbot-float::before {
         right: 66px;
         bottom: 5px;
 
-        padding: 8px 12px;
+        padding: 9px 13px;
+
+        background: #ffffff;
+
+        color: #315047;
+
+        border: 2px solid #5f887a;
+        border-radius: 20px;
 
         font-size: 11px;
+        font-weight: 600;
+
+        box-shadow: 0 4px 14px rgba(49, 80, 71, 0.15);
     }
 
     .chatbot-float::after {
         right: 59px;
         bottom: 15px;
+
+        width: 10px;
+        height: 10px;
+
+        background: #ffffff;
+
+        border-right: 2px solid #5f887a;
+        border-top: 2px solid #5f887a;
+
+        transform: rotate(45deg);
     }
 }
+
 
 
 
