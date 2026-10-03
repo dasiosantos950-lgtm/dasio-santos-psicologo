@@ -352,7 +352,7 @@ h2 em {
 .portrait-frame {
     width: 100%;
 }
-
+/*
 .portrait {
     width: 100%;
     height: 600px;
@@ -367,7 +367,24 @@ h2 em {
     object-fit: cover;
     object-position: center;
 }
+*/
 
+
+.portrait {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    height: auto;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.portrait img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
 
 
 .quote-card {
